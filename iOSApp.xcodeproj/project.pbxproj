@@ -23,7 +23,7 @@
 		F71C06F72715D2530061D167 /* ProfileTemplateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71C06F32715D2530061D167 /* ProfileTemplateController.swift */; };
 		F71C06FE2715D2DC0061D167 /* mtemplates.zip in Resources */ = {isa = PBXBuildFile; fileRef = F71C06FD2715D2DC0061D167 /* mtemplates.zip */; };
 		F71C07422715F9060061D167 /* UserDefaultHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71C07412715F9060061D167 /* UserDefaultHelper.swift */; };
-		F71C0750271600AE0061D167 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F71C074F271600AE0061D167 /* README.md */; };
+		F71C0758271604920061D167 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F71C0757271604920061D167 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,7 +72,7 @@
 		F71C06F32715D2530061D167 /* ProfileTemplateController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileTemplateController.swift; sourceTree = "<group>"; };
 		F71C06FD2715D2DC0061D167 /* mtemplates.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = mtemplates.zip; sourceTree = "<group>"; };
 		F71C07412715F9060061D167 /* UserDefaultHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultHelper.swift; sourceTree = "<group>"; };
-		F71C074F271600AE0061D167 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F71C0757271604920061D167 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,7 +129,6 @@
 		F71C06AB2715D1A50061D167 = {
 			isa = PBXGroup;
 			children = (
-				F71C074F271600AE0061D167 /* README.md */,
 				F71C06B62715D1A50061D167 /* iOSApp */,
 				F71C06CD2715D1A80061D167 /* iOSAppTests */,
 				F71C06D82715D1A90061D167 /* iOSAppUITests */,
@@ -152,6 +151,7 @@
 		F71C06B62715D1A50061D167 /* iOSApp */ = {
 			isa = PBXGroup;
 			children = (
+				F71C0757271604920061D167 /* README.md */,
 				F71C07402715F8F00061D167 /* Common */,
 				F71C06FC2715D2CF0061D167 /* Resources */,
 				F71C06FB2715D27C0061D167 /* UI */,
@@ -344,7 +344,7 @@
 			files = (
 				F71C06C42715D1A80061D167 /* LaunchScreen.storyboard in Resources */,
 				F71C06C12715D1A80061D167 /* Assets.xcassets in Resources */,
-				F71C0750271600AE0061D167 /* README.md in Resources */,
+				F71C0758271604920061D167 /* README.md in Resources */,
 				F71C06BF2715D1A50061D167 /* Main.storyboard in Resources */,
 				F71C06FE2715D2DC0061D167 /* mtemplates.zip in Resources */,
 			);
