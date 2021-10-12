@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-iOSApp-iOSAppUITests/Pods-iOSApp-iOSAppUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Material/Material.framework
+${BUILT_PRODUCTS_DIR}/Motion/Motion.framework
+${BUILT_PRODUCTS_DIR}/ZIPFoundation/ZIPFoundation.framework
